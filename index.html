@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naturevi — Escolha seu site ideal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- TOPO FIXO -->
+<header class="topo">
+  <div class="topo-logo">
+    <div class="n-icon">Ñ</div>
+    <span>Naturevi</span>
+  </div>
+  <span class="topo-titulo">Escolha o modelo ideal para sua loja</span>
+  <div class="topo-indicadores">
+    <span class="contador" id="contador">1 / 4</span>
+    <button class="dot ativo" data-i="0" title="Opção 1"></button>
+    <button class="dot" data-i="1" title="Opção 2"></button>
+    <button class="dot" data-i="2" title="Opção 3"></button>
+    <button class="dot" data-i="3" title="Opção 4"></button>
+  </div>
+</header>
+
+<!-- CARROSSEL -->
+<div class="carrossel-wrapper">
+  <div class="carrossel-track" id="track">
+
+    <!-- ===== SLIDE 1 — Institucional ===== -->
+    <div class="slide slide-1">
+      <div class="slide-label">
+        <div class="badge-opcao">
+          <span class="num-opcao">1</span>
+          Opção 1 — Site Institucional Moderno
+        </div>
+        <span style="opacity:.6;font-size:12px">Role para ver o site completo ↓</span>
+      </div>
+
+      <div class="modelo-root">
+        <header class="m-header">
+          <div class="m-container m-header-inner">
+            <div>
+              <div class="m-logo"><span class="mn">N</span><span class="mr">aturevi</span></div>
+              <div class="m-logo-sub">site institucional moderno</div>
+            </div>
+            <nav class="m-nav">
+              <a href="#">Início</a><a href="#">Categorias</a><a href="#">Produtos</a><a href="#">Conteúdo</a><a href="#">Contato</a>
+            </nav>
+          </div>
+        </header>
+
+        <section class="m-section">
+          <div class="m-container m-card" style="overflow:hidden">
+            <div class="m-grid m-grid-hero" style="padding:0">
+              <div class="m-card-pad-lg">
+                <span class="m-badge">Saúde, equilíbrio e bem-estar</span>
+                <h1 class="m-hero-title">Produtos naturais e suplementos para uma rotina mais saudável.</h1>
+                <p class="m-lead">Um site com aparência elegante para fortalecer a marca, transmitir confiança e aproximar a Naturevi dos clientes que buscam qualidade.</p>
+                <div class="m-actions">
+                  <button class="m-btn m-btn-primary">Ver catálogo</button>
+                  <button class="m-btn m-btn-secondary">Falar no WhatsApp</button>
+                </div>
+              </div>
+              <div style="background:#EEF3E5;padding:28px">
+                <div class="m-grid m-grid-2">
+                  <div class="m-mini-card m-alt-green"><div class="m-eyebrow" style="color:#dce7c6">Destaque</div><h3>Linha natural</h3><p class="m-text-muted" style="color:#eef3e2">Visual refinado para apresentar a loja com autoridade.</p></div>
+                  <div class="m-mini-card m-card"><div class="m-eyebrow">Atendimento</div><h3>Contato rápido</h3><p class="m-text-muted">WhatsApp, Instagram e mapa da loja.</p></div>
+                  <div class="m-mini-card m-card" style="grid-column:1/-1"><div class="m-eyebrow" style="color:#6B7F4A">SEO local</div><h3>Feito para buscas da região</h3><p style="font-size:12px;color:#5D6354">Produtos naturais em Alvorada • suplementos perto de mim</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container">
+            <div class="m-eyebrow" style="margin-bottom:8px">Categorias</div>
+            <h2 class="m-section-title" style="margin-bottom:24px">Principais linhas da loja</h2>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌿</div><h3>Produtos à granel</h3><p class="m-text-muted">Espaço ideal para explicar benefícios e itens mais vendidos.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🍵</div><h3>Chás e fitoterápicos</h3><p class="m-text-muted">Soluções naturais para bem-estar e equilíbrio.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">💪</div><h3>Suplementos</h3><p class="m-text-muted">Produtos pensados para energia e performance.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌾</div><h3>Funcionais</h3><p class="m-text-muted">Opções práticas para complementar a alimentação diária.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🥗</div><h3>Sem glúten e sem lactose</h3><p class="m-text-muted">Categoria para públicos com necessidades específicas.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌱</div><h3>Produtos veganos</h3><p class="m-text-muted">Linha natural para quem valoriza esse estilo de vida.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section m-alt-soft">
+          <div class="m-container">
+            <div class="m-eyebrow" style="color:#6B7F4A;margin-bottom:8px">Produtos em destaque</div>
+            <h2 class="m-section-title" style="margin-bottom:24px">Uma vitrine elegante para os campeões de venda</h2>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🥬</div><h3 style="margin-top:14px">Pó de beterraba</h3><p class="m-text-muted">Energia e vitalidade.</p><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🌰</div><h3 style="margin-top:14px">Maca peruana</h3><p class="m-text-muted">Disposição para a rotina.</p><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🌿</div><h3 style="margin-top:14px">Spirulina</h3><p class="m-text-muted">Nutrição natural.</p><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container m-grid m-grid-contact">
+            <div class="m-card m-card-pad-lg">
+              <div class="m-eyebrow">Contato</div>
+              <h2 class="m-section-title">Naturevi mais próxima dos clientes</h2>
+              <div class="m-contact-cards" style="margin-top:20px">
+                <div class="m-info-card"><strong>WhatsApp</strong><br>(51) 99726-2356</div>
+                <div class="m-info-card"><strong>Instagram</strong><br>@lojanaturevi</div>
+                <div class="m-info-card"><strong>Endereço</strong><br>Estrada Frederico Dihl, 902 — Loja 8, Alvorada/RS</div>
+              </div>
+            </div>
+            <aside class="m-alt-orange m-card-pad" style="border-radius:28px">
+              <div class="m-eyebrow" style="color:#ffe1c8">Perfil ideal</div>
+              <h3 style="margin-top:10px">Para quem quer mais confiança e valor de marca</h3>
+              <ul class="m-list"><li>Visual sofisticado</li><li>Ótimo para Google</li><li>Transmite profissionalismo</li></ul>
+            </aside>
+          </div>
+        </section>
+
+        <footer class="m-footer m-section-sm"><div class="m-container">© 2025 Naturevi Produtos Naturais • Opção 1</div></footer>
+      </div>
+
+      <div class="slide-footer slide-1">
+        <span><strong>Opção 1</strong> — Institucional Moderno · Visual sofisticado · Foco em marca e confiança</span>
+        <button class="btn-escolher" onclick="escolher(1)">Quero esta opção ✓</button>
+      </div>
+    </div>
+
+    <!-- ===== SLIDE 2 — Catálogo ===== -->
+    <div class="slide slide-2">
+      <div class="slide-label">
+        <div class="badge-opcao">
+          <span class="num-opcao">2</span>
+          Opção 2 — Estilo Catálogo de Loja
+        </div>
+        <span style="opacity:.6;font-size:12px">Role para ver o site completo ↓</span>
+      </div>
+
+      <div class="modelo-root">
+        <header class="m-header">
+          <div class="m-container m-header-inner">
+            <div>
+              <div class="m-logo"><span class="mn">N</span><span class="mr">aturevi</span></div>
+              <div class="m-logo-sub">modelo catálogo com cara de loja</div>
+            </div>
+            <nav class="m-nav">
+              <a href="#">Início</a><a href="#">Categorias</a><a href="#">Produtos</a><a href="#">Blog</a><a href="#">Contato</a>
+            </nav>
+          </div>
+        </header>
+
+        <section class="m-section">
+          <div class="m-container">
+            <div class="m-hero-banner">
+              <div class="m-grid m-grid-hero">
+                <div>
+                  <div class="m-eyebrow" style="color:#dce7c6">Naturevi em destaque</div>
+                  <h1 class="m-hero-title">Sua loja de produtos naturais, suplementos e bem-estar.</h1>
+                  <p class="m-lead" style="color:#eef3e2">Inspirada em lojas consolidadas do segmento, com forte visual de catálogo.</p>
+                  <div class="m-actions">
+                    <button class="m-btn m-btn-primary">Ver produtos</button>
+                    <button class="m-btn m-btn-light">Falar no WhatsApp</button>
+                  </div>
+                </div>
+                <div class="m-mini-card" style="background:rgba(255,255,255,.12)">
+                  <div class="m-eyebrow" style="color:#dce7c6;margin-bottom:12px">Categorias rápidas</div>
+                  <div class="m-quick-grid">
+                    <div class="m-quick-item">Produtos à granel</div>
+                    <div class="m-quick-item">Chás e fitoterápicos</div>
+                    <div class="m-quick-item">Funcionais</div>
+                    <div class="m-quick-item">Sem glúten</div>
+                    <div class="m-quick-item">Suplementos</div>
+                    <div class="m-quick-item">Produtos veganos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container">
+            <h2 class="m-section-title" style="margin-bottom:24px">Categorias populares</h2>
+            <div class="m-grid" style="grid-template-columns:repeat(6,1fr);gap:16px">
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">🌿</div><h3 style="font-size:14px">À granel</h3></article>
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">🍵</div><h3 style="font-size:14px">Chás</h3></article>
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">💪</div><h3 style="font-size:14px">Suplementos</h3></article>
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">🌾</div><h3 style="font-size:14px">Funcionais</h3></article>
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">🥗</div><h3 style="font-size:14px">Sem lactose</h3></article>
+              <article class="m-card m-card-pad" style="text-align:center"><div class="m-icon-box" style="margin-inline:auto">🌱</div><h3 style="font-size:14px">Veganos</h3></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section m-alt-soft">
+          <div class="m-container">
+            <h2 class="m-section-title" style="margin-bottom:24px">Produtos em destaque</h2>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🥬</div><div style="display:flex;justify-content:space-between;gap:10px;margin-top:14px"><div><h3>Pó de beterraba</h3><p class="m-text-muted">Energia e vitalidade.</p></div><span class="m-promo-pill">destaque</span></div><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🌰</div><div style="display:flex;justify-content:space-between;gap:10px;margin-top:14px"><div><h3>Maca peruana</h3><p class="m-text-muted">Disposição para a rotina.</p></div><span class="m-promo-pill">destaque</span></div><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+              <article class="m-card m-card-pad"><div class="m-product-emoji">🌿</div><div style="display:flex;justify-content:space-between;gap:10px;margin-top:14px"><div><h3>Spirulina</h3><p class="m-text-muted">Nutrição natural.</p></div><span class="m-promo-pill">destaque</span></div><button class="m-btn m-btn-primary" style="margin-top:12px">Pedir no WhatsApp</button></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container">
+            <h2 class="m-section-title" style="margin-bottom:24px">Conteúdo para atrair clientes pelo Google</h2>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div class="m-article-thumb"></div><h3 style="margin-top:14px">Benefícios do pó de beterraba</h3><p class="m-text-muted">Como esse produto auxilia na disposição e circulação.</p></article>
+              <article class="m-card m-card-pad"><div class="m-article-thumb"></div><h3 style="margin-top:14px">Como usar maca peruana</h3><p class="m-text-muted">Ideias simples para incluir na alimentação.</p></article>
+              <article class="m-card m-card-pad"><div class="m-article-thumb"></div><h3 style="margin-top:14px">Chás para bem-estar</h3><p class="m-text-muted">Opções naturais para diferentes momentos.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container m-grid m-grid-contact">
+            <div class="m-card m-card-pad-lg">
+              <div class="m-eyebrow">Contato</div>
+              <h2 class="m-section-title">Fácil de encontrar e fácil de comprar</h2>
+              <div class="m-contact-cards" style="margin-top:20px">
+                <div class="m-info-card"><strong>WhatsApp</strong><br>(51) 99726-2356</div>
+                <div class="m-info-card"><strong>Instagram</strong><br>@lojanaturevi</div>
+                <div class="m-info-card"><strong>Endereço</strong><br>Estrada Frederico Dihl, 902 — Loja 8, Alvorada/RS</div>
+              </div>
+            </div>
+            <aside class="m-alt-green m-card-pad" style="border-radius:28px">
+              <div class="m-eyebrow" style="color:#dce7c6">Perfil ideal</div>
+              <h3 style="margin-top:10px">Para quem quer cara de loja e catálogo</h3>
+              <ul class="m-list"><li>Categorias fortes na entrada</li><li>Ótimo para exibir variedade</li><li>Compra por WhatsApp natural</li></ul>
+            </aside>
+          </div>
+        </section>
+
+        <footer class="m-footer m-section-sm"><div class="m-container">© 2025 Naturevi Produtos Naturais • Opção 2</div></footer>
+      </div>
+
+      <div class="slide-footer slide-2">
+        <span><strong>Opção 2</strong> — Catálogo de Loja · Categorias em destaque · Ótimo para variedade</span>
+        <button class="btn-escolher" onclick="escolher(2)">Quero esta opção ✓</button>
+      </div>
+    </div>
+
+    <!-- ===== SLIDE 3 — Comercial ===== -->
+    <div class="slide slide-3">
+      <div class="slide-label">
+        <div class="badge-opcao">
+          <span class="num-opcao">3</span>
+          Opção 3 — Comercial com Apelo Regional
+        </div>
+        <span style="opacity:.8;font-size:12px">Role para ver o site completo ↓</span>
+      </div>
+
+      <div class="modelo-root">
+        <header class="m-header">
+          <div class="m-container m-header-inner">
+            <div>
+              <div class="m-logo"><span class="mn">N</span><span class="mr">aturevi</span></div>
+              <div class="m-logo-sub">modelo comercial com apelo regional</div>
+            </div>
+            <nav class="m-nav">
+              <a href="#">Início</a><a href="#">Ofertas</a><a href="#">Categorias</a><a href="#">Dicas</a><a href="#">Contato</a>
+            </nav>
+          </div>
+        </header>
+
+        <section class="m-section">
+          <div class="m-container m-card" style="overflow:hidden">
+            <div class="m-grid m-grid-hero" style="background:#F8F7F2;padding:28px">
+              <div>
+                <span class="m-badge">Produtos naturais e suplementos</span>
+                <h1 class="m-hero-title">Tudo para uma vida mais saudável, com atendimento próximo e pedido rápido.</h1>
+                <p class="m-lead">Apelo comercial, ideal para mostrar variedade, promoções e facilitar contato imediato.</p>
+                <div class="m-actions">
+                  <button class="m-btn m-btn-primary">Ver produtos</button>
+                  <button class="m-btn m-btn-green">Fazer pedido</button>
+                </div>
+              </div>
+              <div class="m-grid m-grid-2">
+                <article class="m-card m-card-pad"><div class="m-product-emoji" style="background:#FFF1E6">🥬</div><h3 style="font-size:14px;margin-top:10px">Pó de beterraba</h3><button class="m-btn m-btn-primary" style="margin-top:10px;font-size:12px;padding:8px 14px">Pedir</button></article>
+                <article class="m-card m-card-pad"><div class="m-product-emoji" style="background:#FFF1E6">🌰</div><h3 style="font-size:14px;margin-top:10px">Maca peruana</h3><button class="m-btn m-btn-primary" style="margin-top:10px;font-size:12px;padding:8px 14px">Pedir</button></article>
+                <article class="m-card m-card-pad"><div class="m-product-emoji" style="background:#FFF1E6">🌿</div><h3 style="font-size:14px;margin-top:10px">Spirulina</h3><button class="m-btn m-btn-primary" style="margin-top:10px;font-size:12px;padding:8px 14px">Pedir</button></article>
+                <article class="m-card m-card-pad"><div class="m-product-emoji" style="background:#FFF1E6">🍵</div><h3 style="font-size:14px;margin-top:10px">Chá hibisco</h3><button class="m-btn m-btn-primary" style="margin-top:10px;font-size:12px;padding:8px 14px">Pedir</button></article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section">
+          <div class="m-container">
+            <h2 class="m-section-title" style="margin-bottom:24px">Categorias em destaque</h2>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌾</div><h3>Produtos à granel</h3><p class="m-text-muted">Destaques, combos e produtos mais procurados.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🍵</div><h3>Chás e fitoterápicos</h3><p class="m-text-muted">Linha digestiva, relaxante e funcional.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">💪</div><h3>Suplementos</h3><p class="m-text-muted">Mix de performance e bem-estar.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌿</div><h3>Funcionais</h3><p class="m-text-muted">Praticidade para o dia a dia.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🥗</div><h3>Sem glúten / sem lactose</h3><p class="m-text-muted">Apelo direto para consumidores específicos.</p></article>
+              <article class="m-card m-card-pad"><div class="m-icon-box">🌱</div><h3>Veganos</h3><p class="m-text-muted">Linha moderna e conectada ao consumo atual.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section m-alt-soft">
+          <div class="m-container">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px">
+              <h2 class="m-section-title" style="margin:0">Ofertas e produtos populares</h2>
+              <span class="m-promo-pill" style="background:#F47C2C;color:#fff">Promoções</span>
+            </div>
+            <div class="m-grid m-grid-3">
+              <article class="m-card m-card-pad"><div style="display:flex;justify-content:space-between;align-items:center"><div class="m-product-emoji" style="flex:1;margin-right:10px">🥬</div><span class="m-promo-pill">item 1</span></div><h3 style="margin-top:12px">Pó de beterraba</h3><p class="m-text-muted">Energia e vitalidade.</p><div class="m-actions"><button class="m-btn m-btn-primary">Pedir</button><button class="m-btn m-btn-secondary">Detalhes</button></div></article>
+              <article class="m-card m-card-pad"><div style="display:flex;justify-content:space-between;align-items:center"><div class="m-product-emoji" style="flex:1;margin-right:10px">🌰</div><span class="m-promo-pill">item 2</span></div><h3 style="margin-top:12px">Maca peruana</h3><p class="m-text-muted">Disposição para a rotina.</p><div class="m-actions"><button class="m-btn m-btn-primary">Pedir</button><button class="m-btn m-btn-secondary">Detalhes</button></div></article>
+              <article class="m-card m-card-pad"><div style="display:flex;justify-content:space-between;align-items:center"><div class="m-product-emoji" style="flex:1;margin-right:10px">🌿</div><span class="m-promo-pill">item 3</span></div><h3 style="margin-top:12px">Spirulina</h3><p class="m-text-muted">Nutrição natural.</p><div class="m-actions"><button class="m-btn m-btn-primary">Pedir</button><button class="m-btn m-btn-secondary">Detalhes</button></div></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="m-section m-alt-green">
+          <div class="m-container m-grid m-grid-contact">
+            <div>
+              <div class="m-eyebrow" style="color:#dce7c6">Contato e localização</div>
+              <h2 class="m-section-title" style="color:white">Pronta para vender e atrair clientes da região</h2>
+              <p class="m-lead" style="color:#eef3e2">Versão com visual forte, foco em produto e blocos estratégicos para WhatsApp e Google.</p>
+            </div>
+            <div class="m-mini-card" style="background:rgba(255,255,255,.10)">
+              <div class="m-contact-cards">
+                <div class="m-info-card" style="background:rgba(255,255,255,.10);color:white"><strong>WhatsApp</strong><br>(51) 99726-2356</div>
+                <div class="m-info-card" style="background:rgba(255,255,255,.10);color:white"><strong>Instagram</strong><br>@lojanaturevi</div>
+                <div class="m-info-card" style="background:rgba(255,255,255,.10);color:white"><strong>Endereço</strong><br>Estrada Frederico Dihl, 902, Loja 8 — Alvorada/RS</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="m-footer m-section-sm"><div class="m-container">© 2025 Naturevi Produtos Naturais • Opção 3</div></footer>
+      </div>
+
+      <div class="slide-footer slide-3">
+        <span><strong>Opção 3</strong> — Comercial Regional · Foco em vendas · Promoções e pedidos rápidos</span>
+        <button class="btn-escolher" onclick="escolher(3)">Quero esta opção ✓</button>
+      </div>
+    </div>
+
+    <!-- ===== SLIDE 4 — Naturevi Premium ===== -->
+    <div class="slide slide-4">
+      <div class="slide-label">
+        <div class="badge-opcao">
+          <span class="num-opcao">4</span>
+          Opção 4 — Naturevi Premium (identidade fiel ao cartão)
+        </div>
+        <span style="opacity:.6;font-size:12px">Role para ver o site completo ↓</span>
+      </div>
+
+      <div class="modelo4-root">
+        <nav class="m4-nav">
+          <div class="m4-logo">
+            <div class="m4-nicon">Ñ</div>
+            <span>Naturevi</span>
+          </div>
+          <div class="m4-nav-links">
+            <a href="#">Sobre</a><a href="#">Produtos</a><a href="#">Galeria</a><a href="#">Contato</a>
+            <a href="#" class="m4-nav-cta">WhatsApp</a>
+          </div>
+        </nav>
+
+        <section class="m4-hero">
+          <div class="m4-hero-badge">🌿 Produtos Naturais · Alvorada/RS</div>
+          <h1><span class="m4-n">Ñ</span><span class="m4-r">aturevi</span></h1>
+          <p class="m4-hero-sub">Produtos Naturais</p>
+          <p class="m4-hero-desc">Tudo que a natureza tem de melhor em um só lugar. Chás, grãos, suplementos, produtos veganos e muito mais para o seu bem-estar.</p>
+          <div class="m4-btns">
+            <a href="#" class="m4-btn-p">💬 Falar no WhatsApp</a>
+            <a href="#" class="m4-btn-o">Ver Produtos →</a>
+          </div>
+          <div class="m4-chips">
+            <span class="m4-chip">🌾 À granel</span>
+            <span class="m4-chip">🍵 Chás</span>
+            <span class="m4-chip">💊 Suplementos</span>
+            <span class="m4-chip">🌱 Vegano</span>
+            <span class="m4-chip">🚫 Sem glúten</span>
+            <span class="m4-chip">🥛 Sem lactose</span>
+            <span class="m4-chip">📉 Low carb</span>
+            <span class="m4-chip">⚡ Funcionais</span>
+          </div>
+        </section>
+
+        <section class="m4-sobre">
+          <div class="m4-sobre-inner">
+            <div>
+              <p class="m4-section-label">Nosso Propósito</p>
+              <h2 class="m4-section-title">Saúde e bem-estar ao seu alcance</h2>
+              <p class="m4-section-text">A Naturevi nasceu da paixão por vida saudável e produtos de qualidade. Trazemos o que há de melhor da natureza diretamente para a sua mesa.</p>
+              <p class="m4-section-text">Seja você vegano, praticante de low carb, intolerante ao glúten ou à lactose — aqui você encontra produtos pensados especialmente para você.</p>
+            </div>
+            <div class="m4-sobre-card">
+              <p style="font-family:'Playfair Display',serif;font-size:20px;color:white;margin-bottom:6px"><span style="color:#b8d400">Ñ</span><span style="color:#d4622a">aturevi</span></p>
+              <p style="font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:20px;letter-spacing:2px;text-transform:uppercase">Produtos Naturais</p>
+              <div class="m4-stats">
+                <div class="m4-stat"><div class="m4-stat-num">9+</div><div class="m4-stat-lab">Categorias</div></div>
+                <div class="m4-stat"><div class="m4-stat-num">787</div><div class="m4-stat-lab">Seguidores</div></div>
+                <div class="m4-stat"><div class="m4-stat-num">100%</div><div class="m4-stat-lab">Natural</div></div>
+                <div class="m4-stat"><div class="m4-stat-num">★★★★★</div><div class="m4-stat-lab">Atendimento</div></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="m4-produtos">
+          <div class="m4-produtos-header">
+            <p class="m4-section-label">O que você encontra</p>
+            <h2 class="m4-section-title">Nossas Categorias</h2>
+          </div>
+          <div class="m4-prod-grid">
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(138,170,78,0.2)">🌾</div><h3>Produtos à Granel</h3><p>Grãos, sementes, farinhas e muito mais.</p></div>
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(212,98,42,0.2)">🍵</div><span class="m4-prod-tag">Popular</span><h3>Chás &amp; Fitoterapicos</h3><p>Ervas medicinais e chás selecionados.</p></div>
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(184,212,0,0.2)">⚡</div><h3>Funcionais</h3><p>Alimentos com benefícios funcionais.</p></div>
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(138,170,78,0.2)">🚫</div><h3>Sem Glúten</h3><p>Linha completa para celíacos.</p></div>
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(212,98,42,0.2)">💊</div><span class="m4-prod-tag">Novidade</span><h3>Suplementos</h3><p>Vitaminas e minerais naturais.</p></div>
+            <div class="m4-prod-card"><div class="m4-prod-icon" style="background:rgba(184,212,0,0.2)">🌱</div><h3>Produtos Veganos</h3><p>Alternativas 100% veganas.</p></div>
+          </div>
+        </section>
+
+        <section class="m4-contato">
+          <div class="m4-contato-inner">
+            <div>
+              <p class="m4-section-label">Fale Conosco</p>
+              <h2 class="m4-section-title">Venha nos visitar ou entre em contato</h2>
+              <p class="m4-section-text">Atendimento personalizado, sempre com carinho!</p>
+              <a href="#" class="m4-contato-item" style="text-decoration:none;color:inherit;display:flex">
+                <div class="m4-contato-icon" style="background:#dcf5e7">📱</div>
+                <div><strong>WhatsApp</strong><span>(51) 99726-2356 · Atendimento rápido</span></div>
+              </a>
+              <a href="#" class="m4-contato-item" style="text-decoration:none;color:inherit;display:flex">
+                <div class="m4-contato-icon" style="background:#fde8d8">📸</div>
+                <div><strong>Instagram</strong><span>@lojanaturevi · Novidades e dicas</span></div>
+              </a>
+              <div class="m4-contato-item">
+                <div class="m4-contato-icon" style="background:#f5ecd8">📍</div>
+                <div><strong>Endereço</strong><span>Estrada Frederico Dihl, 902 — Loja 8, Bela Vista, Alvorada/RS</span></div>
+              </div>
+            </div>
+            <div class="m4-mapa-card">
+              <div class="m4-mapa-header">
+                <h3>📍 Onde Estamos</h3>
+                <p>Loja 8 — Bairro Bela Vista, Alvorada/RS</p>
+              </div>
+              <div class="m4-mapa-body">
+                <div class="m4-pin"><span>📍</span></div>
+                <div class="m4-end"><strong style="color:white">Naturevi Produtos Naturais</strong><br>Estrada Frederico Dihl, 902<br>Loja 8 — Bairro Bela Vista<br>Alvorada / RS</div>
+                <a href="https://maps.google.com/?q=Estrada+Frederico+Dihl+902+Alvorada+RS" target="_blank" class="m4-maps-btn">🗺️ Ver no Google Maps</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="m4-footer">
+          <div class="m4-footer-inner">
+            <div class="m4-footer-brand">
+              <h2><span style="color:#b8d400">Ñ</span><span style="color:#d4622a">aturevi</span></h2>
+              <p>Produtos naturais selecionados com carinho para o seu bem-estar.</p>
+            </div>
+            <div class="m4-footer-col">
+              <h4>Produtos</h4>
+              <ul><li>À Granel</li><li>Chás</li><li>Suplementos</li><li>Sem Glúten</li><li>Veganos</li></ul>
+            </div>
+            <div class="m4-footer-col">
+              <h4>Contato</h4>
+              <ul><li>(51) 99726-2356</li><li>@lojanaturevi</li><li>Alvorada / RS</li></ul>
+            </div>
+          </div>
+          <div class="m4-footer-bottom">
+            <span>© 2025 Naturevi Produtos Naturais</span>
+            <span>Feito com 🌿 amor e saúde</span>
+          </div>
+        </footer>
+      </div>
+
+      <div class="slide-footer slide-4">
+        <span><strong>Opção 4</strong> — Premium · Identidade fiel ao cartão · Verde musgo + laranja + verde limão</span>
+        <button class="btn-escolher" onclick="escolher(4)">Quero esta opção ✓</button>
+      </div>
+    </div>
+
+  </div><!-- /track -->
+</div><!-- /wrapper -->
+
+<!-- SETAS -->
+<button class="seta seta-esq" id="btnEsq" onclick="mover(-1)" disabled>&#8592;</button>
+<button class="seta seta-dir" id="btnDir" onclick="mover(1)">&#8594;</button>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/5551997262356?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Naturevi%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="whats-float" title="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- HINT -->
+<div class="hint-inicial">← Use as setas para navegar entre as opções →</div>
+
+<script src="script.js"></script>
+</body>
+</html>
